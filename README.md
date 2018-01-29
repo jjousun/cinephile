@@ -9,7 +9,7 @@
 - $Rails s
 - Go to localhost:3000
 
-###WIP
+### WIP
 - Fix functionality for genres
 - For adding a new movie, create a drop-down menu to choose from genres
 - Maybe add functionality for adding new genres?
