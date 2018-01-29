@@ -1,24 +1,16 @@
-# README
+# Cinephile
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Keep track of the movies you've watched!
 
-Things you may want to cover:
+## Steps to run this application
 
-* Ruby version
+- $bundle install
+- $Rails db migrate
+- $Rails s
+- Go to localhost:3000
 
-* System dependencies
+###WIP
+- Fix functionality for genres
+- For adding a new movie, create a drop-down menu to choose from genres
+- Maybe add functionality for adding new genres?
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
