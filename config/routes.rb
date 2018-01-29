@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  resources :movies, only: [:index, :show, :create, :new], param: :title
+  root "application#index" 
+ 
+  namespace :api, defaults:{format: :json} do
+    resources :movies, only: [:index, :show, :create, :new], param: :title
+    
+    resources :genres
+  end
   
-  resources :genres
 end

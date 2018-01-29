@@ -1,0 +1,10 @@
+<h1>Movies</h1>
+<ul>
+  <li ng-repeat="movie in ctrl.movies">
+    <h3>{{ movie.title }}</h3>
+    <p>
+      Rating: {{ movie.rating }}
+      Genre: {{ movie.genre_id }}
+    </p>
+  </li>
+</ul>

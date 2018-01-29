@@ -13,6 +13,10 @@
 //= require rails-ujs
 //= require foundation
 //= require turbolinks
+//= require angular
+//= require angular-ui-router
+//= require angular-resource
+//= require angular-rails-templates
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
