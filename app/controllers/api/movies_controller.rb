@@ -8,14 +8,14 @@ class Api::MoviesController < ApplicationController
   end
   
   def show
-    movie = Movie.find_by(title: params[:title])
+    movie = Movie.find_by(id: params[:id])
 
     if movie
       render json: movie.as_json(
         only: [:id, :title, :rating, :genre_id]
       ), status: :ok
     else
-      render json: { errors: { title: ["Movie '#{params[:title]}' not found"]} }, status: :not_found
+      render json: { errors: { title: ["Movie '#{params[:id]}' not found"]} }, status: :not_found
     end
   end
   
